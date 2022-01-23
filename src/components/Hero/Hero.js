@@ -5,9 +5,22 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+   <Section row nopadding>
+      <LeftSection>
+         <SectionTitle main center>
+            Welcome to <br />
+            My Personal Portfolio
+         </SectionTitle>
+         <SectionText>
+            The purpose of Javascript Mastery is to help established and aspiring
+            developers to take their development skills to the next level and build
+            awesome appps.
+         </SectionText>
+         <Button onClick={() => window.location = 'https://google.com'}>
+            Learn More
+         </Button>
+      </LeftSection>
+   </Section>
 );
 
 export default Hero;
