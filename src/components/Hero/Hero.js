@@ -8,15 +8,14 @@ const Hero = (props) => (
    <Section row nopadding>
       <LeftSection>
          <SectionTitle main center>
-            Welcome to <br />
-            My Personal Portfolio
+            Front End <br /> Web Developer
          </SectionTitle>
          <SectionText>
-            The purpose of Javascript Mastery is to help established and aspiring
-            developers to take their development skills to the next level and build
-            awesome appps.
+            I am Kelvin Mwangemi. Multiskilled personnel with experience in the 
+            Software Development industry. Team player with strengths in 
+            adaptability and accuracy.
          </SectionText>
-         <Button onClick={() => window.location = 'https://google.com'}>
+         <Button onClick={() => window.location = '#projects'}>
             Learn More
          </Button>
       </LeftSection>

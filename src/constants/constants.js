@@ -1,46 +1,42 @@
 export const projects = [
    {
-      title: 'MERN Memories',
-      description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
       id: 0,
+      title: 'RewardAdz App',
+      description: "RewardAdz App is a digital platform for advertisements that allows users to earn by listening to audio, sharing banner and watching video advertisements.",
+      image: '/images/rewardadz.png',
+      tags: ['React', 'Node', 'Express', 'Mongo'],
+      visit: 'https://portal.rewardadz.com'
    },
    {
-      title: 'E-Commerce',
-      description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-      image: '/images/2.png',
-      tags: ['React', 'JavaScript'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
       id: 1,
+      title: 'Twaa App',
+      description: "A diverse, inclusive and safe digital space for all women to connect with peers and mentors, build communities and network, share insights and learn, access personal and professional development tools",
+      image: '/images/twaa.png',
+      tags: ['React', 'Node', 'Express', 'MySql'],
+      visit: 'https://twaa.io/'
    },
    {
-      title: 'WebRTC App',
-      description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
       id: 2,
+      title: 'H2H Logistics App',
+      description: "Cloud-based system of records, reporting, tracking, tracing and management of goods from source to destination (House to House)",
+      image: '/images/h2h.png',
+      tags: ['React', 'Node', 'Express', 'Mongo'],
+      visit: 'https://www.portal.h2h-logistics.com/'
    },
    {
-      title: 'Unichat',
-      description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-      image: '/images/4.jpg',
-      tags: ['React', 'ChatEngine', 'Firebase'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
       id: 3,
+      title: 'Paylend App',
+      description: "Paylend is a platform that enhances relationships between business entities and their customers by providing access to credit with dignity.",
+      image: '/images/paylend.png',
+      tags: ['React', 'Node', 'Express', 'Mysql'],
+      visit: 'https://paylend.africa/'
    },
 ];
 
 export const TimeLineData = [
-   { year: 2017, text: 'Started my journey', },
-   { year: 2018, text: 'Worked as a freelance developer', },
-   { year: 2019, text: 'Founded JavaScript Mastery', },
-   { year: 2020, text: 'Shared my projects with the world', },
-   { year: 2021, text: 'Started my own platform', },
+   { year: '2017', text: 'Started my journey' },
+   { year: '2018', text: 'Worked as a freelance developer' },
+   { year: '2019', text: 'Joined Adanian Lab' },
+   { year: '2020+', text: 'Shipped different kinds of projects to the world' },
+   // { year: 2021, text: 'Started my own platform' },
 ];
