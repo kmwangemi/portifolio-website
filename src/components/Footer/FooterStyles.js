@@ -6,6 +6,7 @@ export const FooterWrapper = styled.section`
    padding: 2rem 48px 40px;
    margin: 1rem auto;
    box-sizing: content-box;
+   position: relative;
 
    @media ${props => props.theme.breakpoints.sm} {
       padding: 0 16px 48px;
@@ -53,9 +54,9 @@ export const SocialIconsContainer = styled.div`
    }
 
    @media ${props => props.theme.breakpoints.sm}{
-   display: flex;
+      display: flex;
       width: 100%;
-   flex-direction: column;
+      flex-direction: column;
    }
 `;
 
@@ -154,5 +155,35 @@ export const LinkTitle = styled.h4`
 		font-size: 10px;
 		line-height: 12px;
 		margin-bottom: 8px;
+	}
+`;
+
+export const ScrollContainer = styled.div`
+	display: flex;
+   justify-content: flex-end;
+	width: 100%;
+   height: 50px;
+   padding: 8px;
+   position: absolute;
+   bottom: 0;
+
+   @media ${props => props.theme.breakpoints.sm} {
+      justify-content: center;
+      align-items: center;
+   }
+`;
+
+export const Button = styled.div`
+   height: 20px;
+   font-size: 3rem;
+   z-index: 1;
+   color: rgba(255, 255, 255, 0.75);
+   transition: 0.3s ease;
+
+   &:hover {
+		color: #fff;
+      opacity: 1;
+      cursor: pointer;
+      transform: scale(1.2);
 	}
 `;

@@ -1,10 +1,52 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook } from 'react-icons/ai';
+import {
+   AiFillGithub,
+   AiFillLinkedin,
+   AiFillTwitterCircle,
+   AiFillFacebook,
+   AiOutlineArrowUp
+} from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {
+   CompanyContainer,
+   FooterWrapper,
+   LinkColumn,
+   LinkItem,
+   LinkList,
+   LinkTitle,
+   Slogan,
+   SocialContainer,
+   SocialIconsContainer,
+   ScrollContainer,
+   Button
+} from './FooterStyles';
 
 const Footer = () => {
+
+   // const [visible, setVisible] = useState(false)
+
+   // const toggleVisible = () => {
+   //    const scrolled = document.documentElement.scrollTop;
+   //    if (scrolled > 300) {
+   //       setVisible(true)
+   //    }
+   //    else if (scrolled <= 300) {
+   //       setVisible(false)
+   //    }
+   // };
+
+   const scrollToTop = () => {
+      window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+         /* you can also use 'auto' behaviour
+            in place of 'smooth' */
+      });
+   };
+
+   // window.addEventListener('scroll', toggleVisible);
+
    return (
       <FooterWrapper>
          <LinkList>
@@ -38,6 +80,11 @@ const Footer = () => {
                </SocialIcons>
             </SocialContainer>
          </SocialIconsContainer>
+         <ScrollContainer>
+            <Button>
+               <AiOutlineArrowUp size='3rem' onClick={scrollToTop} />
+            </Button>
+         </ScrollContainer>
       </FooterWrapper>
    );
 };
