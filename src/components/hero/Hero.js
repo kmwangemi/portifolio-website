@@ -1,8 +1,7 @@
-import React from 'react';
-
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
+/* eslint-disable react/no-unescaped-entities */
+import { Section, SectionText, SectionTitle } from '@/styles/globalcomponents';
 import { LeftSection } from './HeroStyles';
+import Button from '@/styles/globalcomponents/Button';
 
 const Hero = (props) => (
   <Section row nopadding>

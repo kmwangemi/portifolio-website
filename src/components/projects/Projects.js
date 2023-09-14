@@ -1,6 +1,5 @@
-import React from 'react';
-import { projects } from '../../constants/constants';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { projects } from '@/constants';
+import { Section, SectionDivider, SectionTitle } from '@/styles/globalcomponents';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Img, Tag, TagList, TitleContent, UtilityList } from './ProjectsStyles';
 
 const Projects = () => (

@@ -32,6 +32,7 @@ export const SectionTitle = styled.h2`
    max-width: 100%;
    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
    -webkit-background-clip: text;
+   background-clip: text;
    -webkit-text-fill-color: transparent;
    margin-bottom: 16px;
    padding: ${(props) => props.main ? '58px 0 16px' : '0'};
@@ -82,8 +83,8 @@ export const SectionDivider = styled.div`
    border-radius: 10px;
    background-color: #fff;
    background: ${(props) => props.colorAlt ?
-         'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-         'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
       margin: ${(props) => props.divider ? "4rem 0" : ""};
 

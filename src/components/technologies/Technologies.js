@@ -1,7 +1,7 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '@/styles/globalcomponents';
 
 const Technologies = () => (
   <Section id='tech'>
