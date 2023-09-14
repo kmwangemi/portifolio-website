@@ -5,21 +5,19 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-   <Section row nopadding>
-      <LeftSection>
-         <SectionTitle main center>
-            Front End <br /> Web Developer
-         </SectionTitle>
-         <SectionText>
-            I am Kelvin Mwangemi. Multiskilled personnel with experience in the 
-            Software Development industry. Team player with strengths in 
-            adaptability and accuracy.
-         </SectionText>
-         <Button onClick={() => window.location = '#projects'}>
-            Learn More
-         </Button>
-      </LeftSection>
-   </Section>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Full Stack <br /> Web Developer
+      </SectionTitle>
+      <SectionText>
+        I'm Kelvin Mwangemi, a versatile professional with a background in the Software Development industry. I thrive as a team player and possess strong qualities in adaptability and precision.
+      </SectionText>
+      <Button onClick={() => window.location = '#projects'}>
+        Learn More
+      </Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;
