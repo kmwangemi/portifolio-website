@@ -37,6 +37,9 @@ const Timeline = () => {
       scroll(carouselRef.current, 0);
     }
     window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
